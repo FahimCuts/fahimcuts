@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fahim Cuts | Video Editor & Content Creator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor-dot"></div><div class="cursor-follower"></div>
+
+<header class="navbar" id="navbar">
+  <a href="#home" class="logo"><span class="logo-mark"><i class="fa-solid fa-scissors"></i></span>Fahim <em>Cuts</em></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#home" class="active">Home</a>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark mode"><i class="fa-solid fa-sun"></i></button>
+    <a href="#contact" class="btn primary hire">Hire Me</a>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Video Editor &amp; Content Creator</p>
+      <h1>Edits that hold <span class="accent">attention.</span></h1>
+      <p class="sub">Reels, YouTube videos, motion graphics and documentaries, cut with clean pacing and sound that carries the story.</p>
+      <div class="btn-row">
+        <a href="#work" class="btn primary">View Work</a>
+        <a href="#contact" class="btn ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+  <p class="intro-text">MY <span class="accent">INTRODUCTION</span></p>
+  <div class="hero-image-ring">
+    <div class="hero-image">
+      <img src="assets/my-intro-image.jpg" alt="Fahim Ashraf Introduction">
+    </div>
+  </div>
+</div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="wrap">
+      <p class="eyebrow line reveal">Selected work</p>
+      <h2 class="reveal">Projects that <span class="accent">move people.</span></h2>
+      <div class="filters reveal" id="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="reel">Reels / Shorts</button>
+        <button class="filter" data-filter="yt">YouTube / Long Form</button>
+        <button class="filter" data-filter="motion">Motion Graphics</button>
+        <button class="filter" data-filter="doc">Documentary</button>
+      </div>
+      <div class="grid grid-3-col" data-grid="reel"></div>
+      <div class="grid grid-2-col" data-grid="yt"></div>
+      <div class="grid grid-3-col" data-grid="motion"></div>
+      <div class="grid grid-2-col" data-grid="doc"></div>
+      <div class="center"><button class="btn ghost" id="toggleProjects">View All Projects</button></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="photo-ring reveal">
+        <div class="photo">
+          <img src="assets/fahim.jpg" alt="Fahim Ashraf">
+          <div class="photo-cap"><strong>Fahim Ashraf</strong><span>Editor / Storyteller / Creator</span></div>
+        </div>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow line">About me</p>
+        <h2 class="big">More than an editor.<br><span class="accent">A story architect.</span></h2>
+        <p>I help ideas become videos people actually finish watching. My approach combines clean pacing, purposeful motion, sound design, and visual storytelling with the strategic thinking needed for modern content.</p>
+        <p>From a 30-second reel to a 30-minute documentary, every cut has a job: build curiosity, communicate clearly, and leave a feeling behind.</p>
+        <div class="chips">
+          <span>Adobe Premiere Pro</span><span>After Effects</span><span>Motion Graphics</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap testimonials" id="testimonials">
+      <p class="eyebrow line reveal">Client notes</p>
+      <h2 class="big reveal">Words from the <span class="accent">other side of the timeline.</span></h2>
+      <div class="t-grid">
+        <article class="t-card glass reveal"><i class="q">&ldquo;</i><p>Fahim understood the story before I even finished explaining it. The final edit felt polished, intentional, and completely on-brand.</p><div class="who"><span class="av">JM</span><div><strong>Jordan Miller</strong><small>Creative Director</small></div></div></article>
+        <article class="t-card glass reveal"><i class="q">&ldquo;</i><p>The pacing changed everything. Our short-form content immediately felt more premium and much easier to watch through.</p><div class="who"><span class="av">SR</span><div><strong>Sarah Reed</strong><small>Content Creator</small></div></div></article>
+        <article class="t-card glass reveal"><i class="q">&ldquo;</i><p>Fast communication, strong creative instincts, and an edit that needed almost no revisions. Exactly what you want from an editor.</p><div class="who"><span class="av">DK</span><div><strong>Daniel Kim</strong><small>Founder</small></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="wrap contact glass reveal">
+      <h2>Have a video in mind? <span class="accent">Let's cut it.</span></h2>
+      <p class="sub">Tell me about the project, the audience and the deadline. I reply within one business day.</p>
+      
+      <!-- আপনার জিমেইল ঠিকানা এখানে দিন -->
+      <a href="mailto:uniques075@gmail.com" class="btn primary">uniques075@gmail.com</a>
+      
+      <div class="socials">
+        <!-- YouTube -->
+        <a href="https://youtube.com/@FahimCuts-q8p" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        
+        <!-- Instagram -->
+        <a href="https://instagram.com/asfahim802026" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/profile.php?id=61593342053207" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        
+        <!-- WhatsApp (আপনার কান্ট্রি কোডসহ নম্বর দিন, যেমন: 88017XXXXXXXX) -->
+        <a href="https://wa.me/8801886676738" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">&copy; 2026 Fahim Cuts. All rights reserved.</footer>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-box"><button class="icon-btn modal-close" id="modalClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button><div class="modal-video" id="modalVideo"></div></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
